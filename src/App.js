@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import MonthC from "./components/MonthC";
 import DateC from "./components/DateC";
@@ -17,7 +17,7 @@ function App() {
         <div className="row">
           <div className="col-sm-3">
             <div className="doc-image">
-              <img src="./images/doc.jpg"></img>
+              <img src="./images/doc.jpg" alt="doc"></img>
             </div>
             <div className="doc-name">
               <h4>Dr. Schmosby</h4>

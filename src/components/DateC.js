@@ -1,6 +1,5 @@
 import React from "react";
 import "./DateC.css";
-import $ from "jquery";
 
 function DateC() {
   return (
