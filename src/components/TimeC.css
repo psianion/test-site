@@ -1,0 +1,41 @@
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #84a9ac;
+  color: #204051;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #204051;
+  color: #afd1d4;
+}
+
+button:focus {
+  background-color: #204051;
+  color: #afd1d4;
+}
+row {
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  button {
+    margin: 7px;
+    width: 100%;
+  }
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  color: #204051;
+}

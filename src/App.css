@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  height: fit-content;
+  background-color: #dcf0ea;
+  padding: 1rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.doc-image {
+  padding-top: 20px;
+  text-align: center;
+}
+.doc-image img {
+  height: 170px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7rem;
+  border-style: solid;
+  border-color: #3b6978;
+}
+
+.doc-name {
+  padding-top: 10px;
+  text-align: center;
+  color: #204051;
+}
+
+.doc-name p {
+  font-style: oblique;
+}
+
+.doc-text p {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 40px;
+  color: #3b6978;
+}
+.doc-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.doc-icon {
+  padding: 1rem 1rem 0.2rem 1rem;
+  text-align: center;
+  background-color: #f3f3f3;
+  max-width: fit-content;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  color: #3b6978;
+  height: fit-content;
+}
+
+.doc-icon p {
+  font-style: oblique;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.doc-icon i {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .doc-text p {
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.item p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.text-topic h4 {
+  color: #204051;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}

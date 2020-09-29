@@ -1,0 +1,29 @@
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.container {
+  color: #dcf0ea;
+  width: 100%;
+  background-color: #204051;
+  justify-content: center;
+  height: 40px;
+  margin: 0.3rem;
+  border-radius: 2rem;
+}
+
+.carousel-item h5 {
+  margin: 0;
+  padding: 0;
+  transform: translateY(-18px);
+}
+
+.carousel-control-prev-icon {
+  transform: translateY(-15px);
+}
+
+.carousel-control-next-icon {
+  transform: translateY(-15px);
+}
